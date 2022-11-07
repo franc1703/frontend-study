@@ -2,18 +2,77 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Селекторы CSS</title>
+        <title>Классы CSS</title>
         <style>
             div{
-                width:50px;
-                height:50px;
-                background-color:red;
+                width: 50px;
+                height: 50px;
                 margin: 10px;
             }
+            .redBlock{
+                background-color: red;
+            }
+            .blueBlock{
+                background-color: blue;
+            }
+            .greenBlock{
+                background-color: green;
+            }
         </style>
+         <style>
+            div{
+                margin: 10px;
+                border: 1px solid #222;
+            }
+            #header{
+                height: 50px;
+                width: 500px;
+                background-color: #ccc;
+            }
+            #content{
+                width: 500px;
+                height: 80px;
+                background-color: #eee;
+            }
+            #footer{
+                height: 50px;
+                width: 500px;
+                background-color: #ccc;
+            }
+        </style>
+                <style>
+                    :checked + span {
+                        color: red;
+                        font-weight: bold; 
+                    }
+                </style>
     </head>
     <body>
-        <h2>Селекторы CSS</h2>
-        <div></div>
-        <div></div>
-        <div></div>
+        <h2>Классы CSS</h2>
+        <div class="redBlock"></div>
+        <div class="blueBlock"></div>
+        <div class="greenBlock"></div>
+        <div id="header">Шапка сайта</div>
+        <div id="content">Основное содержимое</div>
+        <div id="footer">Футер</div>
+        <br>
+        <h2>технология</h2>
+        <p>
+<input type="checkBox" cheked name="html5"/><span>HTML5</span>
+</p>
+<p>
+    <input type="checkbox" name="dotnet"/><span>.NET</span>
+            </p>
+            <p>
+                <input type="checkbox" name="java"/><span>Java</span>
+            </p>
+             
+            <h2>Укажите пол</h2>
+            <p>
+                <input type="radio" value="man" checked name="gender"/><span>мужской</span>
+            </p>
+            <p>
+                <input type="radio" value="woman" name="gender"/><span>женский</span>
+            </p>
+    </body>
+</html>

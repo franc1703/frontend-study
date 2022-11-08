@@ -13,16 +13,23 @@ height: 80px;
 #header{
     background-color: #ccc;
 }
-#sidebar{
+#leftSidebar{
     background-color: #ddd;
+    float: left;
+    width: 150px;
+    height: 190px
+}
+#rightSidebar{
+    background-color: #bbb;
     float: right;
-    width: 250px;
-    height: 190px;
+    width: 150px;
+    height: 190px
 }
 #main{
     background-color: #eee;
     height: 200px;
-    margin-right: 270px;
+    margin-left: 170px;
+    margin-right: 170px;
 }
 #footer{
     background-color: aliceblue;
@@ -32,7 +39,8 @@ height: 80px;
 </head>
 <body>
     <div id="header">Шапка</div>
-    <div id="sidebar">сайбар</div>
+    <div id="leftSidebar">левый сайбар</div>
+    <div id="rightSidebar">правый сайбар</div>
     <div id="main"> содержание</div>
     <div id="footer">футер</div>
 </body>

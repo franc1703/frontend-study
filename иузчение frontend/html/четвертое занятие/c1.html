@@ -4,19 +4,23 @@
         <meta charset="utf-8">
         <title>Переход в CSS3</title>
         <style>
-            div{
-                width: 100px;
-                height: 100px;
-                margin: 40px 30px;
-                border: 1px solid #333;
-                 
-                background-color: #ccc;
-                transition-property: background-color;
-                transition-duration: 2s;
-            }
-            div:hover{
-                background-color: red;
-            }
+div{
+    width: 100px;
+    height: 100px;
+    margin: 40px 30px;
+    border: 1px solid #333;
+    background-color: rgb(0, 255, 106);
+     
+    transition-property: background-color, width, height, border-color;
+    transition-duration: 1s;
+    
+}
+div:hover{
+    background-color: rgb(195, 255, 0);
+    width: 120px;
+    height: 120px;
+    border-color: blue;
+}
         </style>
     </head>
     <body>

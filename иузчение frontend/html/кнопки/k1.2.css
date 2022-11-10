@@ -15,7 +15,7 @@ button {
 }
 
 button:hover {
-    animation: animation 8s linear infinite;
+    animation: 8s linear infinite;
     border: none;
 }
 

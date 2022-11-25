@@ -199,10 +199,64 @@
 //     return null;
 //   }
 
-  function squareSum(numbers){
-    for (1**2 + 2**2 +2**2)
+// function squareSum(numbers) {
+//   for (1 ** 2 + 2 ** 2 + 2 ** 2)
 
 
-    }
-    
-  
+//     }
+
+// const a = 15;
+// const b = 10;
+// var g = a > b;
+// var v = a * b;
+// var r = a - b;
+// const result = g ? v:r;
+// console.log(result);  //    
+
+
+// var age = prompt ('Сколько тебе лет?');
+
+// if (age>30){
+//   alert("привет старый");
+// }
+// else if(age<=30 && age>=20){
+//   alert("привет молодой");
+// }
+// else if(age<20) {
+//   alert ('тут рады только тем кому больше 20')
+// }
+
+// var age = prompt ('Сколько тебе лет?');
+// // var a = 30; 
+// // var b = 20;
+// // var r = a + b;
+// // var g = a - b;
+// var result = age > 30 ? "привет старый" : age<=30 && age >= 20 ? "привет молодой": 'тут рады только тем кому больше 20';
+// alert(result);
+
+// var result ='';
+// var age = prompt ('Сколько тебе лет?');
+
+// if (age>100){
+//   result = 'люди столько не живут'
+// }
+// else if (age>60){
+//   // alert("привет старый");
+//   result = 'привет старый';
+// }
+// else if(age<=59 && age>=20){
+//   // alert("привет молодой");
+//   result = 'привет молодой';
+// }
+// else if(age<20 && age>=1) {
+//   // alert ('тут рады только тем кому больше 20')
+//   result = 'тут рады только тем кому больше 20';
+// }
+// else{
+//   result = 'неверно ведены данные'
+// }
+// alert(result);
+
+var a;
+a = null;
+console.log(a)

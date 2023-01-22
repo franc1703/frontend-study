@@ -33,7 +33,7 @@
 //     console.log(i);
 //     i++;
 // }
- //цикл do while
+ //цикл do while 
 
 
  var i = 1;
